@@ -1088,6 +1088,7 @@ h2.title {
   width: 100%;
 }
 
+/*
 .pagination {
   display: inline-block;
   margin-bottom: 25px;
@@ -1131,7 +1132,11 @@ h2.title {
 	background:#333;
 	color:#fff;
 }
-
+*/
+.pagination>.active>a {
+    background-color: #333;
+    border-color: #333;
+}
 
 
 /*************************
@@ -1481,7 +1486,7 @@ h2.title {
 }
 
 .login-form form button, .signup-form form button {
-  background: #FE980F;
+  background: #f00;
   border: medium none;
   border-radius: 0;
   color: #FFFFFF;
@@ -1506,7 +1511,7 @@ h2.title {
 
 
 .or{
-	background: #FE980F;
+	background: #c00;
 	border-radius: 40px;
 	color: #FFFFFF;
 	font-family: 'Roboto', sans-serif;
@@ -2537,10 +2542,124 @@ h2.title {
 }
 
 
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
 
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+  padding-top: 0;
+}
 
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 50% !important;
+}
 
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
 
+.profile-usertitle-name {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  color: #999;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.profile-usertitle-job a {
+    color: #999;
+}
+.profile-usertitle-job a:hover {
+    text-decoration: underline;
+    color: #c00;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #333;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #f00;
+  background-color: #f6f9fb;
+  border-left: 2px solid #333;
+  margin-left: -2px;
+}
+.m-b-50 {
+    margin-bottom: 50px;
+}
+.add_btn {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.back_view .product-information {
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.back_view .btn_edit {
+    margin-left: 42px;
+}
+.login_box {
+    margin-bottom: 80px;
+}
 
 
 

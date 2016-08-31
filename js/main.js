@@ -9,6 +9,7 @@
 /*scroll to top*/
 
 $(document).ready(function(){
+    
 	$(function () {
 		$.scrollUp({
 	        scrollName: 'scrollUp', // Element ID
@@ -27,4 +28,40 @@ $(document).ready(function(){
 	        zIndex: 2147483647 // Z-Index for the overlay
 		});
 	});
-});
+    
+    $('.btn_delete').click(function(e){
+        e.preventDefault();
+        swal({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then(function () {
+            swal(
+                'Deleted!',
+                'Your AD has been deleted.',
+                'success'
+            );
+        });
+    });
+    
+    
+    $('.datatable').dataTable(); 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}); // End Ready

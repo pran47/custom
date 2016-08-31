@@ -167,6 +167,9 @@
 	<script src="js/jquery.scrollUp.min.js"></script>
 	<script src="js/price-range.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="https://cdn.jsdelivr.net/sweetalert2/4.2.4/sweetalert2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.datatables/1.10.10/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap.datatables/0.1/js/datatables.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
